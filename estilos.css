@@ -1,0 +1,273 @@
+:root{
+    --color1:rgba(247,168,3);
+    --color2:rgba(34,34,34);
+    
+}
+
+/*CONFIGURACIÓN PERSONAL*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background-color:rgba(212,219,215);
+    overflow-x: hidden;
+}
+
+main{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100vw;
+}
+
+/*HEADER*/
+
+header{
+    width: 100vw;
+    height: 60px;
+    position: absolute;
+}
+
+.box_header{
+    width: 100vw;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    background-color: var(--color2);
+}
+
+.box_header a{
+    text-decoration: none;
+}
+
+.box_header a:hover{
+    color:var(--color1);
+}
+
+.box_header img{
+    width: 30px;
+}
+
+.item_header{
+    margin-right: 30px;
+    line-height: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white;
+    
+}
+
+
+/*SECCIÓN PERSONAL*/
+
+.principal_h{
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.principal_h2{
+    color: rgb(80, 75, 75);
+    margin-bottom: 20px;
+}
+
+.Name{
+    width: 30vw;
+    height: calc(100vh - 15px);
+    display: block;
+    position: fixed;
+    background-color: var(--color1);
+    margin:40px;
+    margin-top: 0;
+    padding-top: 30px;
+    box-shadow: 10px 5px 5px black;
+}
+
+
+.profesion{
+    width: 100%;
+    height:300px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.foto{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.Name img{
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.circulo{
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*SECCION DOS*/
+
+.dos{
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 25vw;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+
+/*CAJAS DE INFORMACION*/
+
+.caja_principal{
+    display: block;
+    width: 80%;
+    color:gray;
+    border-bottom: 2px solid var(--color1);
+}
+
+.caja_principal li{
+    list-style: none;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.exp_p{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color:black;
+    line-height: 4;
+}
+
+/*CAJA 1*/
+
+.caja1{
+    height: 300px;
+    margin-top: 60px;
+}
+
+.experiencia_lenguajes{
+    width: 20%;
+    text-align: center;
+}
+
+.caja1 .exp_box{
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 150px;
+}
+
+.experiencia_lenguajes img{
+    width: 40px;
+}
+
+/*CAJA 2*/
+.caja2{
+    height: 400px;
+}
+
+.exp_list{
+    margin-left: 40px;
+}
+
+.box_principal{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.box_principal img{
+    width: 60px;
+    height: 60px;
+    margin:20px;
+}
+
+.box_principal .blandas{
+    width: 300px;
+    height: 200px;
+}
+
+/*CAJA 3*/
+
+.caja3{
+    display: block;
+    height: 380px;
+}
+
+.caja3 h2{
+    color: black;
+    font-size: 12px;
+}
+
+.caja3 .habilidad_blanda{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3,100px);
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.caja3 .habilidad_blanda2{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(2,100px);
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+.item_blanda{
+    width: 120px;
+    height: 120px;
+    background:#097fa37a ;
+    border:3px solid #4343437a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*IDIOMAS*/
+
+.idioma{
+    display: flex;
+    justify-content: center;
+    height: 280px;
+}
+
+.idiomas_box img{
+    width: 50px;
+}
+
+.box_idioma{
+    padding:60px;
+
+}
+

@@ -1,0 +1,132 @@
+@media screen and (max-width:1000px){
+    .box_idioma{
+        padding:20px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .principal_h{
+        font-size:15px;
+    }
+
+    .principal_h2{
+        font-size:20px;
+    }
+
+    .experiencia_lenguajes{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:725px){
+    .box_principal img{
+        margin:0px;
+    }
+
+    .profesion{
+        width: 70%;
+        margin: auto;
+    }
+
+    .principal_h{
+        font-size:10px;
+    }
+
+    .principal_h2{
+        font-size: 10px;
+    }
+
+    .caja3{
+        height: 300px;
+    }
+
+    .caja3 .habilidad_blanda{
+        grid-gap:0px;
+        text-align: center;
+        justify-items: center;
+    }
+
+    .caja3 .habilidad_blanda2{
+        grid-gap:0px;
+        justify-items: center;
+    }
+
+    
+    .item_blanda{
+        width: 70%;
+        height: 80px;
+    }
+
+    .box_idioma{
+        text-align: center;
+    }
+
+    .Name{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .box_header{
+        position: relative;
+    }
+
+    main{
+        display: grid;
+        width: 100%;
+        grid-template-columns:1fr;
+        grid-template-rows: 300px 1fr;
+    }
+
+    .Name{
+        width:100vw;
+        margin:50px 0px 0px 0px;
+        height: 300px;
+        display:flex;
+        position:relative;
+    }
+
+    .foto{
+        width: 60%;
+        padding-left: 30px;
+    }
+
+    .dos{
+        margin-left: 0px;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .caja1 .exp_box{
+        width: 80vw;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .principal_h{
+        padding:0 20px 0 20px;
+    }
+
+    .circulo{
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .caja1 .exp_box{
+        grid-gap:10px;
+        padding: 0px;
+    }
+
+    .box_principal img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .caja2{
+        height: 500px;
+    }
+
+}
